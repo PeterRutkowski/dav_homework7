@@ -27,8 +27,6 @@ Our data are limited to 2013. Let's make some predictions for the next 250 years
 
 Task: Using Simple Time Series Forecasting Methods (for a complete list see below). 
 Make forecasting for 2 selected countries using 3 (out of 12) forecasting methods.
-Apart from the main trend, you should also include uncertainty of the forecasting 
-(e.g. by adding 95% confidence interval). 
 
 Expected result: 6 plots (2 countries * 3 methods) e.g. 
 bra_ar.png, bra_ma.png, bra_arma.png
