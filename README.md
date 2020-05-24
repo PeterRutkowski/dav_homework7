@@ -39,32 +39,6 @@ rather than on using default parameters.
 You can earn extra points (up to 50%) for making a prediction using more than 
 3 methods or/and 2 countries or adding analysing seasonal trends.
 
-
-4) Time series cross-validation
-
-Do you see any difference between Time Series Forecasting Methods in the quality of 
-the forecasts? 
-
-If not, maybe try to extend the time span of forecasting.
-Or maybe there is a better way to say which model/parameters are better?
-
-Explore TimeSeriesSplit ("from sklearn.model_selection import TimeSeriesSplit")
-
-Using some forecast quality metrics (e.g. Mean Absolute Error or any other) and 
-TimeSeriesSplit (e.g. n_splits=5) calculate the model fitness. 
-Take the two countries from part (3) and do a table with statistics. 
-
-Expected result: the table with statistics
-_____________________________
-
-        ar    arma    hwes
-_____________________________
-
-bra    MAE     MAE     MAE     
-
-fra    MAE     MAE     MAE     
-_____________________________
-
 ====================================================================
 Simple Time Series Forecasting Methods
 
@@ -101,10 +75,9 @@ It should contain:
 - the main report file in HTML form* (with 14 plots and the table) 
 - the data for plots
 - the python scripts generating plots (one script per one plot)**
-- the separate plots (*.png)
-- the script for generating the table
+- the separate plots
 
-*  static HTML without external dependencies
+*  HTML without external dependencies
 ** plain python plots (*.py)- thus no jupyter notebooks
 
 Additionally, the plotting scripts should have one parameter [0/1] for showing or 
