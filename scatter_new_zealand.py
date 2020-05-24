@@ -10,8 +10,8 @@ fig.update_layout(
     titlefont = dict(size=14),
     title_x=0.5,
     autosize = False,
-    width=800,
-    height=600,
+    width=650,
+    height=500,
     xaxis=dict(title='Year', titlefont = dict(size=12)),
     yaxis=dict(title='Average temperature (Celsius)', titlefont = dict(size=12))
 )
